@@ -1,0 +1,8 @@
+--Practice 5
+--Ex1
+select DISTINCT CITY from STATION 
+where ID%2=0
+--Ex2
+SELECT COUNT (CITY) - COUNT (DISTINCT CITY) FROM STATION
+--EX3
+
